@@ -107,7 +107,7 @@ try {
 try {
   execSync("git init", { cwd: projectPath, stdio: "inherit" });
   execSync("git add .", { cwd: projectPath, stdio: "inherit" });
-  execSync('git commit -m "Initial commit"', {
+  execSync('git commit -m "Initial commit" --quiet', {
     cwd: projectPath,
     stdio: "inherit",
   });
