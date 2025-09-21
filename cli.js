@@ -116,5 +116,5 @@ try {
   console.warn("⚠️ Git initialization failed. Is git installed?");
 }
 
-console.log(`✅ Done! cd ${projectName} && ${packageManager} dev`);
+console.log(`✅ Done! cd ${projectName} && ${packageManager} start`);
 finished = true;
